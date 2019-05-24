@@ -1,7 +1,9 @@
 [
     {
         "eventType": "PlayerHasRegistered",
-        "timestamp": "2016-09-01T17:58:50.964327Z",
+        "metadata": {
+            "TimeStamp": "2016-09-01T17:58:50.964327Z"
+        },
         "data": {
             "player_id": "1",
             "last_name": "Coopman",
@@ -11,7 +13,9 @@
     },
     {
         "eventType": "QuizWasCreated",
-        "timestamp": "2016-09-01T17:58:50.964352Z",
+        "metadata": {
+            "TimeStamp": "2016-09-01T17:58:50.964352Z"
+        },
         "data": {
             "quiz_title": "Cities of Europe",
             "quiz_id": "1",
@@ -21,7 +25,9 @@
     },
     {
         "eventType": "QuestionAddedToQuiz",
-        "timestamp": "2016-09-01T17:58:50.964372Z",
+        "metadata": {
+            "TimeStamp": "2016-09-01T17:58:50.964372Z"
+        },
         "data": {
             "quiz_id": "1",
             "question_id": "1",
@@ -32,7 +38,9 @@
     },
     {
         "eventType": "QuizWasPublished",
-        "timestamp": "2016-09-01T17:58:50.964389Z",
+        "metadata": {
+            "TimeStamp": "2016-09-01T17:58:50.964389Z"
+        },
         "data": {
             "quiz_id": "1"
         },
