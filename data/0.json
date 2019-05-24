@@ -1,36 +1,41 @@
-[{
-    "type": "PlayerHasRegistered",
-    "timestamp": "2016-09-01T17:58:50.964327Z",
-    "payload": {
-        "player_id": "1",
-        "last_name": "Coopman",
-        "first_name": "Thomas"
+[
+    {
+        "eventType": "PlayerHasRegistered",
+        "timestamp": "2016-09-01T17:58:50.964327Z",
+        "data": {
+            "player_id": "1",
+            "last_name": "Coopman",
+            "first_name": "Thomas"
+        },
+        "eventId": "504e4468-96fc-40bb-a131-a5d3d1c182a9"
     },
-    "id": "504e4468-96fc-40bb-a131-a5d3d1c182a9"
-}, {
-    "type": "QuizWasCreated",
-    "timestamp": "2016-09-01T17:58:50.964352Z",
-    "payload": {
-        "quiz_title": "Cities of Europe",
-        "quiz_id": "1",
-        "owner_id": "1"
+    {
+        "eventType": "QuizWasCreated",
+        "timestamp": "2016-09-01T17:58:50.964352Z",
+        "data": {
+            "quiz_title": "Cities of Europe",
+            "quiz_id": "1",
+            "owner_id": "1"
+        },
+        "eventId": "25396a7e-e7ec-4214-a923-4c5dffec0182"
     },
-    "id": "25396a7e-e7ec-4214-a923-4c5dffec0182"
-}, {
-    "type": "QuestionAddedToQuiz",
-    "timestamp": "2016-09-01T17:58:50.964372Z",
-    "payload": {
-        "quiz_id": "1",
-        "question_id": "1",
-        "question": "What is the capital of France?",
-        "answer": "Paris"
+    {
+        "eventType": "QuestionAddedToQuiz",
+        "timestamp": "2016-09-01T17:58:50.964372Z",
+        "data": {
+            "quiz_id": "1",
+            "question_id": "1",
+            "question": "What is the capital of France?",
+            "answer": "Paris"
+        },
+        "eventId": "033316e8-bbfb-4375-8ff0-5f6bbc84e63b"
     },
-    "id": "033316e8-bbfb-4375-8ff0-5f6bbc84e63b"
-}, {
-    "type": "QuizWasPublished",
-    "timestamp": "2016-09-01T17:58:50.964389Z",
-    "payload": {
-        "quiz_id": "1"
-    },
-    "id": "9d3ea13d-47d6-4051-97ec-7b2f9db8b54c"
-}]
+    {
+        "eventType": "QuizWasPublished",
+        "timestamp": "2016-09-01T17:58:50.964389Z",
+        "data": {
+            "quiz_id": "1"
+        },
+        "eventId": "9d3ea13d-47d6-4051-97ec-7b2f9db8b54c"
+    }
+]
